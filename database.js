@@ -8,8 +8,8 @@
 // const pool =createPool({
 //     host:'localhost',
 //     user: 'root',
-//     password:'@#Sanjukumar123',
-//     database:'test',
+//     password:'',
+//     database:'',
 //     connectionLimit:5
 // })
 
@@ -29,8 +29,8 @@ var mysql =require('mysql')
 const con = mysql.createConnection({
     host:'localhost',
     user: 'root',
-    password:'@#Sanjukumar123',
-    database:'test'
+    password:'',
+    database:''
 })
 
 con.connect((err)=>{
